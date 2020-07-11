@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: darkviolet;
+}
+
+div#stopwatch {
+    border-radius: 12px;
+    padding: 2%;
+    border: 0;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    box-shadow: 5px 5px 10px, #eeaeca -5px -5px 10px #fff4e7;
+}
+
+div#sw-time {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    box-shadow: 20px 20px 60px #eeaeca, -20px -20px 60px #eeaeca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+    font-size: 2rem;
+}
+
+button#sw-rst,
+button#sw-go {
+    margin: 50px 20px 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 0;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    box-shadow: 20px 20px 60px #eeaeca, -20px -20px 60px #eeaeca;
+    color: darkviolet;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button#sw-rst:focus,
+button#sw-go:focus {
+    outline: none;
+}
+
+button#sw-rst:hover,
+button#sw-go:hover {
+    color: violet;
+}
